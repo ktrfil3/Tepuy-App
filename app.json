@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Tepuy",
+    "slug": "Tepuy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splashi.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.ktrfil3.Tepuy"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
